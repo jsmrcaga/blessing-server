@@ -1,0 +1,17 @@
+{
+  "name": "blessing-server",
+  "version": "1.0.0",
+  "description": "The counting server for the blessing app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Sorry, i did not implement any tests\" && exit 1",
+    "start": "forever -o ./logs -e ./error-logs app.js"
+  },
+  "author": "Jo Colina",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "forever": "^0.15.3"
+  }
+}
